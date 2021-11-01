@@ -168,3 +168,4 @@ E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Projec
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_AutLayout.cshtml.g.cs
