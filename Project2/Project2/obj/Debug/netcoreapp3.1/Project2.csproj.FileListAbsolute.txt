@@ -196,4 +196,3 @@ E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Projec
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
-E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewImage.cshtml.g.cs

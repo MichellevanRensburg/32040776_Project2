@@ -14,7 +14,9 @@ namespace Project2.Data
         public Project2DbContext(DbContextOptions<Project2DbContext> options)
             : base(options)
         {
+
         }
+        //public DbSet<Image> Image { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
