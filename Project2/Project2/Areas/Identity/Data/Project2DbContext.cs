@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Project2.Areas.Identity.Data;
+using Project2.Models;
 
 namespace Project2.Data
 {
@@ -16,7 +17,8 @@ namespace Project2.Data
         {
 
         }
-        //public DbSet<Image> Image { get; set; }
+        public DbSet<ImageModel> Image { get; set; }
+        public object ImageModel { get; internal set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

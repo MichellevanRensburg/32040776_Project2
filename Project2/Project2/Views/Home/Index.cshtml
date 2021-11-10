@@ -1,21 +1,72 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<Project2.Models.ImageModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Osmanthus gallery</h1>
-    <h2>_________________________________________________________________________________</h2>
-</div>
-<div class="text-center">
-    <h4>Images</h4>
-    <div class="form-group">
-        <button id="view-image-button" type="submit" asp-page-handler="ViewImages" class="btn btn-2">View</button>
-    </div>
-    <div class="form-group">
-        <button id="add-image-button" type="submit" asp-page-handler="AddImage" class="btn btn-2">Add</button>
-    </div>
-    <div class="form-group">
-        <button id="delete-image-button" type="submit" asp-page-handler="DeleteImage" class="btn btn-2">Delete</button>
-    </div>
-</div>
+<h1>Index</h1>
 
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.imageId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.imageFile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.imageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.geoloaction)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tag)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.capturedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.capturedBy)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.imageId)
+            </td>
+            <td>
+                <img src="~/images/@item.imageFile" class="w3-round" style="width:30%" asp-append-version="true" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.imageName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.geoloaction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tag)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.capturedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.capturedBy)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

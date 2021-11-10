@@ -26,10 +26,9 @@ namespace Project2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = Configuration.GetConnectionString("Project2DbContextConnection");
-            services.AddDbContext<ImageContext>(options => options.UseSqlServer(connection));
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddDbContext<Project2DbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Project2DbContextConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
