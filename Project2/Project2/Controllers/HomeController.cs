@@ -21,7 +21,7 @@ namespace Project2.Controllers
 
         private readonly Project2DbContext Context;
         private readonly IWebHostEnvironment WebHostEnvironment;
-        private ImageModel image;
+        private readonly ImageModel image;
 
 
         public HomeController(ILogger<HomeController> logger, Project2DbContext context, IWebHostEnvironment webHostEnvironment)
