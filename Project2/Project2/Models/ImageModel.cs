@@ -12,22 +12,22 @@ namespace Project2.Models
         [Key]
         public int imageId { get; set; } 
 
-        [Column(TypeName = "nvaechar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string imageName { get; set; }
 
-        [Column(TypeName = "nvaechar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string imageFileName { get; set; }
 
-        [Column(TypeName = "nvaechar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string geoloaction { get; set; }
 
-        [Column(TypeName = "nvaechar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string tag { get; set; }
 
         [Column(TypeName = "date")]
         public DateTime capturedDate { get; set; }
 
-        [Column(TypeName = "nvaechar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string capturedBy { get; set; }
     }
 }

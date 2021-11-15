@@ -1,12 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Migrations\20211110203845_Seccond.cs" />
     <Compile Remove="Migrations\20211110203845_Seccond.Designer.cs" />
+    <Compile Remove="Migrations\ImageDb\20211115174916_Images.cs" />
+    <Compile Remove="Migrations\ImageDb\20211115174916_Images.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
