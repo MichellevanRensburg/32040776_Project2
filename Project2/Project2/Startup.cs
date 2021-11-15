@@ -28,7 +28,7 @@ namespace Project2
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
-            services.AddDbContext<Project2DbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Project2DbContextConnection")));
+            services.AddDbContext<ImageDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Project2DbContextConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
