@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -16,6 +18,8 @@ namespace Project2.Models
         public string imageName { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
+
+        [DisplayName("image File Name")]
         public string imageFileName { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
@@ -29,5 +33,9 @@ namespace Project2.Models
 
         [Column(TypeName = "nvarchar(50)")]
         public string capturedBy { get; set; }
+
+        [NotMapped]
+        [DisplayName("Upload File")]
+        public IFormFile ImageFile { get; set; }
     }
 }

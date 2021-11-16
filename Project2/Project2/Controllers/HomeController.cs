@@ -18,20 +18,15 @@ namespace Project2.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IWebHostEnvironment WebHostEnvironment;
-        private readonly ImageModel image;
 
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            //Context = context;
-            //WebHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult Index()
         {
-            /*var items = Context.Image.ToList();*/
             return View();
         }
 
