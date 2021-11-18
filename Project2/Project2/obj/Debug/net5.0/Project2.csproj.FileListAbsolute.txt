@@ -173,7 +173,6 @@ E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Projec
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Controllers\Index.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
