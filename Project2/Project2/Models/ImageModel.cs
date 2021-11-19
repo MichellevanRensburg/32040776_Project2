@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Project2.Areas.Identity.Data;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,9 +13,10 @@ namespace Project2.Models
     public class ImageModel
     {
         [Key]
-        public int imageId { get; set; } 
+        public int imageId { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
+        [Required]
         public string imageName { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
@@ -37,5 +39,11 @@ namespace Project2.Models
         [NotMapped]
         [DisplayName("Upload File")]
         public IFormFile ImageFile { get; set; }
+
+        //Forgein key
+        [Column(TypeName = "nvarchar(450)")]
+        public string Id { get; set; }
+        [ForeignKey("Id")]
+        public ApplicationUser ApplicationUser { get; set; }
     }
 }

@@ -169,6 +169,7 @@ namespace Project2.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        
         private bool ImageModelExists(int id)
         {
             return _context.Images.Any(e => e.imageId == id);
