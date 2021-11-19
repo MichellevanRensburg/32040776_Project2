@@ -10,6 +10,10 @@
     <Compile Remove="Migrations\20211110203845_Seccond.Designer.cs" />
     <Compile Remove="Migrations\ImageDb\20211115174916_Images.cs" />
     <Compile Remove="Migrations\ImageDb\20211115174916_Images.Designer.cs" />
+    <Compile Remove="Migrations\ImageDb\20211115175148_Images.cs" />
+    <Compile Remove="Migrations\ImageDb\20211115175148_Images.Designer.cs" />
+    <Compile Remove="Migrations\ImageDb\20211119110657_Id.cs" />
+    <Compile Remove="Migrations\ImageDb\20211119110657_Id.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

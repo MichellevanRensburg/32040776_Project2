@@ -37,7 +37,7 @@ namespace Project2.Models
         public string capturedBy { get; set; }
 
         [NotMapped]
-        [DisplayName("Upload File")]
+        [DisplayName("Upload Image")]
         public IFormFile ImageFile { get; set; }
 
         //Forgein key
