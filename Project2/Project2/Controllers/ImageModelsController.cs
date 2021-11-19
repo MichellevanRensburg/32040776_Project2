@@ -169,7 +169,27 @@ namespace Project2.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        
+        //To download photo,  but does not work
+        /*public async Task<IActionResult> Download(string filename)
+        {
+            var path = Path.GetFullPath("./wwwroot/images" + filename);
+            MemoryStream memory = new MemoryStream();
+            using (FileStream stream = new FileStream(path, FileMode.Open))
+            {
+                await stream.CopyToAsync(memory);
+            }
+            memory.Position = 0;
+            return File(memory, "image/png", "download");
+        }
+
+        [HttpGet]
+        public FileStreamResult DownloadPngFile(string fileName)
+        {
+            var stream = new FileStream(Directory.GetCurrentDirectory() + "\\wwwroot\\images" + fileName, FileMode.Open);
+            return new FileStreamResult(stream, "image/png");
+        }*/
+
+
         private bool ImageModelExists(int id)
         {
             return _context.Images.Any(e => e.imageId == id);

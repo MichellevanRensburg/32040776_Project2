@@ -194,4 +194,3 @@ E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Projec
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Views\ImageModels\Details.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Views\ImageModels\Edit.cshtml.g.cs
 E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Views\ImageModels\Index.cshtml.g.cs
-E:\Final year\sem2\CMPG 323\project 2\software\32040776_Project2\Project2\Project2\obj\Debug\net5.0\Razor\Views\ImageModels\Download.cshtml.g.cs
