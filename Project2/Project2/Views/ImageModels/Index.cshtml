@@ -6,7 +6,7 @@
 }
 
 <h1>Images</h1>
-<a align="right" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" style="color:blue">Back To Home Page</a>
+<a align="right" class="nav-link text-primary" asp-area="" asp-controller="Home" asp-action="Index">Back To Home Page</a>
 
 
 <p>
@@ -59,9 +59,9 @@
                     @Html.DisplayFor(modelItem => item.capturedBy)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.imageId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.imageId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.imageId">Delete</a>
+                    <a asp-action="Edit" class="text-info" asp-route-id="@item.imageId">Edit</a> |
+                    <a asp-action="Details" class="text-info" asp-route-id="@item.imageId">Details</a> |
+                    <a asp-action="Delete" class="text-info" asp-route-id="@item.imageId">Delete</a>
                 </td>
             </tr>
         }
